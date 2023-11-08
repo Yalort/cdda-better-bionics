@@ -1,0 +1,42 @@
+  [
+  {
+    "id": "adv_bio_tools",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Implanted MACES Unit CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A highly complex and advanced system of computation equipment and hardlight projectors which can produce a facsimile of nearly any tool imaginable, and automatically calculates the optimal way to use them based on the project.",
+    "price": 800000000,
+    "difficulty": 8
+  },
+  {
+    "id": "adv_bio_powerstore",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Quantum Lattice Vanometric Battery CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A battery comprised of quantum crystal that allows the freezing of free electrons directly, allowing for unprecedented bionic power storage.",
+    "price": 400000000,
+    "difficulty": 8
+  },
+  {
+    "id": "adv_bio_powergen",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Quantum Vanometric Electron Miner CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A set of induction plates and a small vanometric electron miner that generates energy passively from fluctuations in quantum foam.",
+    "price": 800000000,
+    "difficulty": 8
+  },
+  {
+    "id": "adv_bio_foodmaker",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Nutrient Predigestor CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A set of induction plates and a small vanometric electron miner that generates energy passively from fluctuations in quantum foam.",
+    "price": 800000000,
+    "difficulty": 8
+  }
+  ]

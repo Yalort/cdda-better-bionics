@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Advanced_Bionics",
+    "name": "Jerbo's Advanced Bionics",
+    "authors": [ "Jerbo" ],
+    "description": "This is a mod to help with the shitty bionics.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

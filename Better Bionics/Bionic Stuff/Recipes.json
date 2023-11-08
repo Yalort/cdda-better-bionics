@@ -1,0 +1,38 @@
+[
+   {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "adv_nutrition_paste",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "9 s",
+    "autolearn": true,
+    "tools": [ ["adv_nutrient_maker"] ],
+    "components": [ [ [ "any_meat", 1, "LIST"] ] ]
+   },
+   {
+      "result": "bandages",
+      "type": "recipe",
+      "activity_level": "LIGHT_EXERCISE",
+      "category": "CC_*",
+      "subcategory": "CSC_*_NESTED",
+      "skill_used": "firstaid",
+      "difficulty": 1,
+      "time": "30 s",
+      "autolearn": true,
+      "components": [
+        [ [ "cotton_patchwork", 3 ], [ "medical_gauze", 1 ] ],
+        [ [ "duct_tape", 20 ], [ "medical_tape", 5 ], ["scrap", 5] ],
+        [
+          [ "disinfectant", 5 ],
+          [ "thyme_oil", 1 ],
+          [ "chem_ethanol", 250 ],
+          [ "denat_alcohol", 250 ],
+          [ "methed_alcohol", 250 ],
+          ["mixed_alcohol_strong", 2 ]
+        ]
+      ]
+    }
+]

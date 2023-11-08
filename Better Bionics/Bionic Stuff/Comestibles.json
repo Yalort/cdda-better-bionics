@@ -1,0 +1,22 @@
+[
+ {
+    "type": "COMESTIBLE",
+    "id": "adv_nutrition_paste",
+    "name": { "str": "nutrition Paste" },
+    "looks like": "slime_scrap",
+    "category": "food",
+    "weight": "15 g",
+    "color": "white",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "calories": 3000,
+    "description": "A mucus-wrapped pod of nutrient-dense adipose paste converted from a wide range of protein material. It has the texture of snot, the flavor of rubber, and everything a growing boy needs.",
+    "price": 20,
+    "price_postapoc": 40,
+    "volume": "25 ml",
+    "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+	"material":  ["flesh", "blood" ],
+	"vitamins": [ [ "calcium", 100 ], [ "iron", 100 ], [ "vitC", 100 ] ],
+    "fun": -10
+  }
+  ]

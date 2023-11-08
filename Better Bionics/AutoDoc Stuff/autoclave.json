@@ -1,0 +1,48 @@
+[
+    {
+            "result": "autoclave",
+            "type": "recipe",
+            "category": "CC_OTHER",
+            "subcategory": "CSC_OTHER_OTHER",
+            "activity_level": "MODERATE_EXERCISE",
+            "time": "6 h",
+            "skill_used": "fabrication",
+            "difficulty": 2,
+            "autolearn": false,
+            "book_learn": [ ["textbook_chemistry", 3], ["recipe_labchem", 3], ["adv_chemistry", 3] ],
+            "skills_required": [ "electronics", 4, "fabrication", 4, "mechanics", 4 ],
+            "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+            "using": [ [ "forging_standard", 2 ], [ "steel_tiny", 2 ] ],
+            "proficiencies": [ { "proficiency": "prof_plumbing" } ],
+            "components": [
+              [ [ "scrap", 8 ] ],
+              [ [ "sheet_metal_small", 6 ] ],
+              [ [ "electronics_controls", 1 ] ],
+              [ [ "hinge", 2 ] ],
+              [ [ "motor_small", 4 ] ],
+              [ [ "pump_complex", 1 ] ],
+              [ [ "element", 4 ], ["crude_heating_element", 4] ],
+              [ [ "cable", 16 ] ],
+              [ ["silicone", 2], ["duct_tape", 20], ["superglue", 2] ]
+            ]
+    },
+    {
+      "result": "pouch_autoclave",
+      "type": "recipe",
+      "category": "CC_OTHER",
+      "subcategory": "CSC_OTHER_OTHER",
+      "activity_level": "MODERATE_EXERCISE",
+      "time": "6 m",
+      "skill_used": "fabrication",
+      "difficulty": 0,
+      "autolearn": false,
+      "book_learn": [ ["textbook_chemistry", 3], ["recipe_labchem", 3], ["adv_chemistry", 3] ],
+      "skills_required": [ "fabrication", 4 ],
+      "qualities": [ { "id": "CUT", "level": 1 } ],
+      "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+      "components": [
+        [ [ "plastic_sheet_small", 2 ] ],
+        [ ["duct_tape", 10], ["superglue", 1] ]
+      ]
+}
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": "any_meat",
+        "type": "requirement",
+        "//": "All of the different meats",
+        "components": [
+          [
+            [ "meat_red_raw", 1, "LIST" ],
+            [ "any_blood", 1, "LIST" ],
+            [ "any_fat", 1, "LIST" ],
+            [ "eggs_any_shape", 1, "LIST" ],
+            [ "eggs_roe", 1, "LIST" ],
+            [ "meat_offal", 1, "LIST" ],
+            [ "meat_brain", 1, "LIST" ],
+            [ "meat_stomach", 1, "LIST" ]
+          ]
+        ]
+      }
+]

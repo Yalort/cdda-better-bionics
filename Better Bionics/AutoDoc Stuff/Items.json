@@ -1,0 +1,35 @@
+[
+    {
+        "id": "f_autodoc_disassembled",
+        "type": "GENERIC",
+        "looks_like": "box_battery_charger",
+        "category": "spare_parts",
+        "name": { "str": "disassembled autodoc", "str_pl": "disassembled autodocs" },
+        "description": "A set of disassembled autodoc parts ready to be reassembled.",
+        "weight": "20000 g",
+        "volume": "300000 ml",
+        "price": 80000000,
+        "price_postapoc": 1600000,
+        "material": [ "cotton", "steel" ],
+        "symbol": "0",
+        "color": "white",
+        "flags": [ "NONCONDUCTIVE" ]
+      },
+      {
+        "id": "f_autodoc_couch_disassembled",
+        "type": "GENERIC",
+        "looks_like": "box_medium_metal",
+        "category": "spare_parts",
+        "name": { "str": "disassembled autodoc couch", "str_pl": "disassembled autodoc couches" },
+        "description": "A set of disassembled autodoc couch parts ready to be reassembled.",
+        "weight": "20000 g",
+        "volume": "300000 ml",
+        "price": 80000,
+        "price_postapoc": 160000,
+        "material": [ "cotton", "steel" ],
+        "symbol": "0",
+        "color": "white",
+        "flags": [ "NONCONDUCTIVE" ]
+      }
+      
+]

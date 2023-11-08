@@ -1,0 +1,49 @@
+  [
+  {
+    "id": "adv_bio_tools",
+    "type": "bionic",
+    "name": { "str": "MACES Unit" },
+    "description": "Surgically implanted in your hands and forearms are small hardlight projectors and a quantum computer designed to simplify engineering tasks to near trivial levels as well as creating temporary versions of the tools needed.",
+    "occupied_bodyparts": [ [ "hand_l", 2 ], [ "hand_r", 2 ], [ "arm_l", 3 ], [ "arm_r", 3 ] ],
+    "toggled_pseudo_items": [ "adv_toolset", "hotcut", "press", "press_dowel", "chisel", "crucible", "swage", "drift", "tongs", "metalworking_tongs", "sandpaper", "draw_plate", "casting_mold", "billet_wood", "angle_grinder", "carding_paddles", "chipper", "con_mix", "distaff_spindle", "mold_plastic", "polisher", "welding_blanket", "welder", "thermometer", "sieve_steel", "pliers", "elec_jackhammer", "large_repairkit", "forge", "wire_draw_machine", "fake_tire_changer", "food_processor" ],
+    "included_bionics": [ "adv_bio_tools_extend" ],
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE", "USES_BIONIC_POWER" ],
+    "activated_on_install": true
+  },
+  {
+    "id": "adv_bio_tools_extend",
+    "type": "bionic",
+    "name": { "str": "Hardlight Tool Projection" },
+    "description": "Begin or stop projecting your MACES unit's hardlight multitool. This will occupy your hands.",
+    "fake_weapon": "adv_toolset_extended",
+    "included": true,
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "USES_BIONIC_POWER" ]
+  },
+   {
+    "id": "adv_bio_powerstore",
+    "type": "bionic",
+	"capacity": "5000 kJ",
+	"occupied_bodyparts": [[ "torso", 2 ]],
+    "name": { "str": "Vanometric Battery" },
+    "description": "A battery comprised of quantum resonating crystal is implanted in your abdomen. It humms in tune with the resonating frequency of your current location in spacetime.",
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+   {
+    "id": "adv_bio_powergen",
+    "type": "bionic",
+	"occupied_bodyparts": [[ "torso", 2 ]],
+	"power_trickle": "5000 kJ",
+    "name": { "str": "Vanometric Generator" },
+    "description": "A highly advanced quantum electron miner is installed under your diaphram, and it uses the basic micropressure of your breathing to pierce through quantum foam and generate entropy in electrons.",
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE" ]
+  },
+  {
+	"id": "adv_bio_foodmaker",
+    "type": "bionic",
+	"occupied_bodyparts": [[ "torso", 4 ]],
+    "name": { "str": "Nutrient Predigestor" },
+    "description": "A set of micro-macerators line a tube in your chest, running to an artificial digestive system in your abdomen. It can efficiently convert most biological matter into a nutrient-dense gel.",
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_TOGGLED" ],
+	 "toggled_pseudo_items": ["adv_nutrient_maker"]
+  }
+  ]

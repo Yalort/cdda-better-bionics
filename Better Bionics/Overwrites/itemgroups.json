@@ -1,0 +1,35 @@
+[
+{
+    "type" : "item_group",
+    "id": "bionics",
+    "copy-from": "bionics",
+    "subtype": "distribution",
+    "extend": {
+      "items": [
+         [ "adv_bio_tools", 10 ], [ "adv_bio_powerstore", 10 ], [ "adv_bio_powergen", 10 ], ["adv_bio_foodmaker", 10]
+      ]
+    }
+},
+{
+    "type" : "item_group",
+    "id": "bionics_mil",
+    "copy-from": "bionics_mil",
+    "subtype": "distribution",
+    "extend": {
+      "items": [
+         [ "adv_bio_tools", 10 ], [ "adv_bio_powerstore", 10 ], [ "adv_bio_powergen", 10 ], ["adv_bio_foodmaker", 10]
+      ]
+    }
+},
+{
+    "type" : "item_group",
+    "id": "EXODII_CBM_Store_Tier4",
+    "copy-from": "EXODII_CBM_Store_Tier4",
+    "subtype": "distribution",
+    "extend": {
+      "items": [
+         [ "adv_bio_tools", 10 ], [ "adv_bio_powerstore", 10 ], [ "adv_bio_powergen", 10 ], ["adv_bio_foodmaker", 10]
+      ]
+    }
+}
+]
