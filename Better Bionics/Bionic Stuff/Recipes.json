@@ -34,5 +34,18 @@
           ["mixed_alcohol_strong", 2 ]
         ]
       ]
-    }
+    },
+    {
+      "type": "recipe",
+      "activity_level": "NO_EXERCISE",
+      "result": "adv_nutrition_paste_NPC",
+      "category": "CC_FOOD",
+      "subcategory": "CSC_FOOD_OTHER",
+      "skill_used": "cooking",
+      "difficulty": 0,
+      "time": "1 m",
+      "autolearn": true,
+      "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+      "components": [ [ ["adv_nutrition_paste", 5 ] ] ]
+     }
 ]

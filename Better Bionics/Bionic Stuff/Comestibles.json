@@ -3,7 +3,7 @@
     "type": "COMESTIBLE",
     "id": "adv_nutrition_paste",
     "name": { "str": "nutrition Paste" },
-    "looks like": "slime_scrap",
+    "looks_like": "slime_scrap",
     "category": "food",
     "weight": "15 g",
     "color": "white",
@@ -18,5 +18,25 @@
 	"material":  ["flesh", "blood" ],
 	"vitamins": [ [ "calcium", 100 ], [ "iron", 100 ], [ "vitC", 100 ] ],
     "fun": -10
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "adv_nutrition_paste_NPC",
+    "name": { "str": "condensed nutrition Paste" },
+    "looks_like": "slime_scrap",
+    "category": "food",
+    "weight": "75 g",
+    "color": "white",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "calories": 15000,
+    "description": "A pile of boiled nutrient paste. It's horrible features have been somewhat muted by cooking. Still not pleasant, but insanely nutrient-dense.",
+    "price": 20,
+    "price_postapoc": 200,
+    "volume": "25 ml",
+    "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+	"material":  ["flesh", "blood" ],
+	"vitamins": [ [ "calcium", 500 ], [ "iron", 500 ], [ "vitC", 500 ] ],
+    "fun": -1
   }
   ]
